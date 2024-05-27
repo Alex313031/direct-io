@@ -1,6 +1,6 @@
 {
   "name": "@ronomon/direct-io",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Direct IO helpers for block devices and regular files on FreeBSD, Linux, macOS and Windows.",
   "main": "binding.node",
   "files": [
@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ronomon/direct-io.git"
+    "url": "git+https://github.com/Alex313031/direct-io.git"
   },
   "keywords": [
     "_aligned_buffer",
@@ -43,17 +43,22 @@
     "volume",
     "zero copy"
   ],
-  "author": "Joran Dirk Greef",
+  "author": "Alex313031",
+  "contributors": [
+    "Joran Dirk Greef",
+    "Gerrit Niezen",
+    "Alexander Frick"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ronomon/direct-io/issues"
+    "url": "https://github.com/Alex313031/direct-io/issues"
   },
-  "homepage": "https://github.com/ronomon/direct-io#readme",
+  "homepage": "https://github.com/Alex313031/direct-io#readme",
   "scripts": {
     "prepublishOnly": "rm -f binding.node",
     "postinstall": "node-gyp clean"
   },
   "dependencies": {
-    "@ronomon/queue": "^3.0.1"
+    "@ronomon/queue": "3.0.1"
   }
 }
