@@ -1,5 +1,7 @@
 # direct-io
 
+*Note: This is a fork to add Electron v20+ compatibility.* It is used in [etcher-sdk-win7](https://github.com/Alex313031/etcher-sdk-win7).
+
 Direct IO helpers for block devices and regular files on FreeBSD, Linux, macOS
 and Windows. *#mechanical-sympathy*
 
